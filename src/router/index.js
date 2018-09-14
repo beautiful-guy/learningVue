@@ -39,6 +39,10 @@ const router =  new Router({
           meta:{
             title:'详情'
           }
+        },
+        {
+          path:'vuexDemo',
+          component:()=>import('../components/vuexDemo')
         }
       ]
     }
